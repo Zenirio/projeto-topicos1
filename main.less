@@ -1,0 +1,51 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
+
+@tamanho: 18rem;
+
+body, html {
+    scroll-behavior: smooth;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    .card { 
+        width: @tamanho;
+        margin: .7rem 
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .container{
+        padding: 10px;
+        .card { 
+            margin: .5px; 
+        }
+    }
+}
+
+@media screen and (min-width: 760px){
+    .flex-container {
+        justify-content: space-around;
+        .card {
+            margin: 20px 10px; 
+        }
+    }
+        
+}
+
+@media screen and (min-width: 800px){
+    .container{
+        margin: 0;
+        padding: .7rem;
+        min-width: 95vw;
+        max-width: 100vw;
+        .flex-container {
+            margin: 0;
+            min-width: 90vw;
+        }
+    }    
+}

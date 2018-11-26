@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cursos de tecnologia</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+                <a class="navbar-brand" href="#">Cursos Tecnologia</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Quem somos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nossos cursos
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#ads">Análise e Desenvolvimento de Sistemas</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#cc">Ciências da Computação</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#si">Sistemas para Internet</a>
+                      </div>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input id="pesquisar" class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button id="btn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                  </form>
+                </div>
+              </nav>
+
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="./ban1.jpg" alt="Primeira Imagem">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./ban2.jpg" alt="Segunda Imagem">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./ban3.jpg" alt="Terceira Imagem">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                  </div>
+
+                  <br>
+
+                  <div class="container">
+                        <div class="flex-container">
+                            <div class="card" id="si">
+  <img class="card-img-top" src="./ban1.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Sistemas para Internet</h5>
+    <p class="card-text">Além de criar e realizar manutenção em sites, um profissional formado em Sistemas para Internet está apto a administrar blogs, portais, lojas virtuais ou qualquer outro tipo de página. E para manter um bom número de acessos é preciso gerenciar as atividades, analisar o perfil dos usuários, controlar as atualizações e selecionar os anúncios que serão veiculados.</p>
+    <a href="#" class="btn btn-primary">Saiba mais</a>
+  </div>
+</div>
+                            <div class="card" id="cc">
+  <img class="card-img-top" src="./ban2.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Ciências da Computação</h5>
+    <p class="card-text">Além de planejar e implementar software, este profissional também busca novas formas de utilizar computadores e desenvolve maneiras eficientes de tratar problemas computacionais.</p>
+    <a href="#" class="btn btn-primary">Saiba mais</a>
+  </div>
+</div>
+                            <div class="card" id="ads">
+  <img class="card-img-top" src="./ban3.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Análise e Desenvolvimento de Sistemas</h5>
+    <p class="card-text">Quem estuda Análise e Desenvolvimento de Sistemas termina a faculdade apto a se envolver em todas as etapas do desenvolvimento de sistemas, desde o planejamento até os testes finais.</p>
+    <a href="#" class="btn btn-primary">Saiba mais</a>
+  </div>
+</div>
+
+                        </div>
+                      </div>
+
+                      <br>
+
+              <footer>
+                    <div class="card">
+                        <div class="card-body">
+                            Contate-nos: (XX16)3252-XXXX
+                        </div>
+                    </div>
+              </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+    <script>
+      let pes = document.querySelector('#pesquisar')
+      let form = document.querySelector('form')
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        alert(pes.value)
+      })
+    </script>
+</body>
+</html>
